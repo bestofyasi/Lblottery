@@ -1,0 +1,44 @@
+body{
+  letter-spacing: 9px;
+  font-size: 100px;
+  text-align:center;
+  font-family: Courier;
+}
+
+#wrapper{
+    line-height:96vh;
+}
+
+html{
+  background: #000;
+  color: #fff;
+}
+
+button {
+    background: transparent;
+    color: #fff;
+    border: 1px solid;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+button:hover {
+    background: #fff;
+    color:#000;
+    transition: all 0.5s ease-in-out;
+}
+.swal-overlay {
+    background-color: rgba(9, 198, 255, 0.986);
+  }
+.swal-title:not(:last-child) {
+    margin-bottom: 13px;
+    font-family: sans-serif;
+    letter-spacing: normal;
+    font-size: 41px;
+}
+.swal-text {
+    font-size: 20px;
+    font-family: sans-serif;
+    letter-spacing: normal;
+}
